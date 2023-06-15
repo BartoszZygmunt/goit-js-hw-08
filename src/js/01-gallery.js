@@ -1,6 +1,6 @@
 // Change code below this line
-import 'simplelightbox/dist/simple-lightbox.min.css';
 import SimpleLightbox from 'simplelightbox';
+import 'simplelightbox/dist/simple-lightbox.min.css';
 
 import { galleryItems } from './gallery-items.js';
 
@@ -9,8 +9,8 @@ const galleryElement = document.querySelector('.gallery');
 //tworzę znaczniki html
 const galleryItemsMarkup = galleryItems.map(item => {
   return `
-    <li>
-      <a class="gallery__item" href="${item.original}">
+    <li class="gallery__item">
+      <a class="gallery__link" href="${item.original}">
         <img class="gallery__image" src="${item.preview}" alt="${item.description}" />
       </a>
     </li>
