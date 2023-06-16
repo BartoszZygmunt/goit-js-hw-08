@@ -1,6 +1,5 @@
 import Player from '@vimeo/player';
-var _ = require('lodash');
-//import throttle from 'lodash/throttle';
+import _ from 'lodash';
 
 const player = new Player('vimeo-player', {});
 
