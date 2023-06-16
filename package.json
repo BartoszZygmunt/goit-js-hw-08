@@ -5,7 +5,8 @@
   "homepage": "https://bartoszzygmunt.github.io/goit-js-hw-08/",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-08/"
+    "build": "parcel build src/*.html --public-url /goit-js-hw-08/",
+    "hw08": "git add . && git commit -m `update` && git push goit-js-hw-08 main"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,8 @@
   },
   "dependencies": {
     "@vimeo/player": "^2.20.1",
+    "lodash": "^4.17.21",
+    "lodash.throttle": "^4.1.1",
     "modern-normalize": "^1.1.0",
     "simplelightbox": "^2.14.1"
   },
