@@ -6,7 +6,7 @@
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /goit-js-hw-08/",
-    "hw08": "git add . && git commit -m `update` && git push goit-js-hw-08 main"
+    "hw08": "git add . && git commit -m 'update' && git push goit-js-hw-08 main"
   },
   "repository": {
     "type": "git",
